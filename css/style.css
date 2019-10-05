@@ -1,0 +1,22 @@
+html,body{
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.socialLinks {
+	justify-content: center;
+	align-items: center;
+}
+
+.socialLinks a {
+	color: white;
+	font-size: 30px;
+}
+
+@media screen and (max-width: 766px) {
+	body {
+		overflow-y: scroll;
+	}
+}
